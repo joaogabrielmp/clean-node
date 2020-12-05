@@ -1,6 +1,6 @@
 import { DbAddAccount } from './db-add-account'
 import { AddAccountModel, AccountModel } from './db-add-account-protocols'
-import { AddAccountRepository } from '../../../data/protocols/db/add-account-repository'
+import { AddAccountRepository } from '../../../data/protocols/db/account/add-account-repository'
 import { Hasher } from '../../../data/protocols/criptography/hasher'
 
 const makeHasher = (): Hasher => {
