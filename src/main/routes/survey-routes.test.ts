@@ -75,4 +75,20 @@ describe('Survey Routes', () => {
         .expect(204)
     })
   })
+
+  describe('GET /surveys', () => {
+    test('should return 403 on load surveys without accessToken', async () => {
+      await request(app)
+        .get('/api/surveys')
+        .expect(403)
+    })
+
+    // test('should return 204 on load surveys with valid accessToken', async () => {
+    //   const accessToken = await mockAccessToken()
+    //   await request(app)
+    //     .get('/api/surveys')
+    //     .set('x-access-token', accessToken)
+    //     .expect(204)
+    // })
+  })
 })
