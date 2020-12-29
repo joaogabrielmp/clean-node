@@ -3,7 +3,7 @@ import { Collection } from 'mongodb'
 import { sign } from 'jsonwebtoken'
 
 import app from '@/main/config/app'
-import { MongoHelper } from '../../infra/db/mongodb/helpers/mongo-helper'
+import { MongoHelper } from '@/infra/db/mongodb/helpers/mongo-helper'
 import env from '@/main/config/env'
 
 let surveyCollection: Collection
