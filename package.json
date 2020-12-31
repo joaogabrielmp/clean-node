@@ -1,6 +1,6 @@
 {
   "name": "clean-node",
-  "version": "2.1.0",
+  "version": "2.4.1",
   "description": "NodeJs Rest API and GraphQL using TDD, Clean Architecture, Typescript and Design Patterns",
   "scripts": {
     "start": "node dist/main/server.js",
